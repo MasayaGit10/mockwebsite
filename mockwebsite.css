@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.top-left{
+    float: left;
+    top:0;
+    left:0;
+    padding:14px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.topnav{
+    background-color: rgba(0, 0, 0, 0.849);
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    right:0;
+    font-size: 30px;
+    text-align: center;
+    
+    
+    
+}
+
+.topnav a {
+    
+    color:#f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px；
+    
+    
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+ 
+  /* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .sentence{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+  }
+
+  .container .learn{
+      text-align: center;
+      float: right;
+      background-color: grey;
+      
+  }
+
+
+.footer {
+    font-size: 15px;
+    text-align: center;
+}
+
+  
+.container .navbottom .start:hover{
+    background-color: #ddd;
+    color:rebeccapurple;
+    left:50%;
+}
+.container .navbottom .start {
+    background-color:green;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    
+}
