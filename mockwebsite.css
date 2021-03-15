@@ -3,27 +3,57 @@ body{
     padding:0;
 }
 
-.top-left{
-    float: left;
-    top:0;
-    left:0;
-    padding:14px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    color: white;
+
+   
+    
+
+.container .topnav{
+    position:relative;
+    background-color: #333;
+    overflow: hidden;
+   }
+
+   .topnav a{
+    float:right;
+    
+    color:#f2f2f2;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 20px;
 }
 
-.topnav{
-    background-color: rgba(0, 0, 0, 0.849);
-    overflow: hidden;
-    position: fixed;
-    top:0;
-    right:0;
-    font-size: 30px;
+
+.container .topnav .top-left{
+    float:left;
+    color:#f2f2f2;
     text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 20px;
     
+
+}
+
+
+.container .learn .imgs  {
+
+    position: relative;
+    display: flex;
     
+}
+
+.container .learn .imgs .name{
+    color: tomato;
+    position: absolute;
+    top:50px;
     
+}
+.container .learn .imgs .explain {
+
+   padding: 10px;
+   margin: 40px;
+   
 }
 
 .topnav a {
@@ -58,6 +88,7 @@ body{
     transform: translate(-50%,-50%);
     margin:0;
     padding:0;
+    text-align: center;
   }
 
   .container .learn{
@@ -65,24 +96,43 @@ body{
       float: right;
       background-color: grey;
       
+      
   }
 
 
-.footer {
+.container .footer h2 {
     font-size: 15px;
+    background-color:white;
     text-align: center;
+    margin:0;
+    padding:0;
+    left: 50%;
 }
 
   
-.container .navbottom .start:hover{
-    background-color: #ddd;
-    color:rebeccapurple;
-    left:50%;
-}
-.container .navbottom .start {
-    background-color:green;
-    bottom: 0;
-    width: 100%;
-    font-size: 20px;
-    
+.container  .dev {
+    float: none;
+    position: relative;
+    left: 50%;
+    color: white;
+    background-color: yellowgreen;
+    transform: translate(-50%, 0);
+
+  }
+
+
+.dev:hover {background-color: #46a064;}
+
+.container .sentence2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position:absolute;
+    top: 80%;
+    left: 50%;
+    font-size: 10px;
+    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    text-align: center;
+    color: white;
 }
