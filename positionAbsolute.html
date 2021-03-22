@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .absolute_parent{
+        position:relative;
+        left:30px;
+        top:30px;
+        border:SOLID 2px red;
+        height:190px;
+        width:500px;
+    }
+
+    .absolute_parent .absolute_test{
+        position: absolute;
+        background-color: #ccc;     /* 背景色指定 */
+        padding:20px;
+        left:50PX;
+        top:50px;
+    }
+
+    .img_area{
+        position:relative;/* 子要素の起点を指定 */
+        height:200px;  /* 高さ指定 */
+        width: 200px; /* 幅指定 */
+        background-color:  #ccc;
+    }
+
+     .img_area .caption_area{
+         position:absolute;
+         width:100%;
+         background-color: rgba(0, 0, 0, 0.7);   /* 背景色指定 */
+         color:  #fff;                           /* 文字色指定 */
+         padding:5px;
+         box-sizing:  border-box;                /* 崩れ防止 */
+         bottom:  0;                             /* 下からの位置を指定 */
+         font-size: 14px;                        /* フォントサイズ指定 */
+
+     }
+
+
+    </style>
+</head>
+<body>
+    <div class="absolute_parent">
+        <div class="absolute_test">
+            絶対配置になります
+        </div>
+    </div>
+
+    <div class="img_area">
+        画像
+        <div class="caption_area">
+            キャプションが入ります。キャプションが入ります。キャプションが入ります。
+        </div>
+    </div>
+</body>
+</html>
