@@ -8,10 +8,11 @@ body{
     
 
 .container .topnav{
-    position:relative;
+    position: fixed;
     background-color: #333;
     overflow: hidden;
-   
+    top: 0;
+    width: 100%;
    }
 
    .topnav a{
@@ -37,19 +38,25 @@ body{
 
 }
 
-
 .container .learn .imgs  {
-
-    position: relative;
     display: flex;
-    
+}
+
+.container .learn .imgs li {
+    list-style: none;
+}
+
+.container .learn .imgs .image-box {
+    position: relative;
 }
 
 .container .learn .imgs .name{
     color: tomato;
     position: absolute;
-    top:50px;
-    
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
 }
 .container .learn .imgs .explain {
 
