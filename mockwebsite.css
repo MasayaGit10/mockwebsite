@@ -35,19 +35,25 @@ body{
 
 }
 
-
 .container .learn .imgs  {
-
-    position: relative;
     display: flex;
-    
+}
+
+.container .learn .imgs li {
+    list-style: none;
+}
+
+.container .learn .imgs .image-box {
+    position: relative;
 }
 
 .container .learn .imgs .name{
     color: tomato;
     position: absolute;
-    top:50px;
-    
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
 }
 .container .learn .imgs .explain {
 
