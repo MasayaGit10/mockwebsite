@@ -51,7 +51,8 @@ body{
 
 .innerchild {
     width: 50%;
-    text-align: center;
+    text-align: right;
+    margin-right: 60px;
 }
 
 .innerchild2 {
@@ -59,14 +60,8 @@ body{
     
 }
 .sentence2{
-    
-  
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    justify-content: space-around;
-    float: right;
-    
-    
-   
+    width: 80%;
 }
 
 
@@ -78,67 +73,36 @@ body{
 
 
 .courseslist {
-    justify-content: space-between;
     display: flex;
-  
-    justify-content: space-evenly;
-        
-        box-sizing: border-box;
-    
 }
 .courseslist .list1{
-   
-   background-color: blue;
-
    text-align: center;
-   flex: 1;
-   display: flex;
-
-   
-  
+}
+.courseslist img {
+    width: 100%;
 }
 .courseslist .list1 p{
-    float:right;
+    /* float:right; */
     font-size: 30px;
-   
 }
-
-.courseslist .list1 .first{
-  
-    width: 10%;
-    height:10%;
-   }
-
 
 .courseslist .list2{
    
-    background-color: brown;
-    flex: 1;
     text-align: center;
-    display: flex;
 }
 
 .courseslist .list2 p{
-    float:right;
+    /* float:right; */
     font-size: 30px;
-    
-   
 }
 
 .courseslist .list2 .second{
   
- width: 30%;
- height:30%;
  box-sizing: border-box;
 }
 
 .courseslist .list3{
-  background-color: chartreuse;
-  flex: 1;
   text-align: center;
-  display: flex;
-
-   
 }
 
 
@@ -161,6 +125,7 @@ body{
    }
 
    .contactform {
+       margin: 0 auto;
        padding:15px;
        width: 80%;
        text-align: center;
@@ -178,3 +143,14 @@ input[type=text] ,select, textarea{
 
 
  
+  .container {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .container img {
+      width: 100%;
+  }
+  .container div {
+    margin: 20px;
+  }
